@@ -33,7 +33,7 @@ jobs:
           # If you have a custom .spec file, specify it like: pyinstaller your_spec_file.spec
 
       - name: Upload EXE to Artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: main
           path: dist/main.exe  # Adjust path if your executable is named differently
